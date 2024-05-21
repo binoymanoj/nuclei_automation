@@ -38,10 +38,10 @@ if [ ${#failed_tools[@]} -gt 0 ]; then
 fi
 
 # coping the tool to bin directory for accessing anywhere in the terminal
-cp nuclei_automation.sh /usr/bin/nuclei_automation
+cp nuclei_automation.sh /usr/bin/nuto
 
 # Display completion message
 echo
 echo "[*] Tool is installed successfully!"
 echo
-echo "[*] You can use the tool by \$ nuclei_automation <domain>"
+echo "[*] You can use the tool by \$ nuto <domain>"
